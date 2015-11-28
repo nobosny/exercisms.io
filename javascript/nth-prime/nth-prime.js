@@ -1,4 +1,11 @@
-﻿var Prime = function () { };
+﻿/*
+If all the lower primes of a number n are known, and none of them divide 
+into n without a remainder, then n is also prime.
+
+That's how I found the nth prime, storing all the lower primes until I find the nth-prime, and then, pop the last.
+*/
+
+var Prime = function () { };
 
 Prime.nth = function (nthPrime) {
 

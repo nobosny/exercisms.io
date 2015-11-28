@@ -58,6 +58,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bracket-push\bracket-push.js" />
+    <Content Include="bracket-push\bracket-push.spec.js" />
     <Content Include="example\example.js" />
     <Content Include="example\example_test.spec.js" />
     <Content Include="hello-world\hello-world.js" />
@@ -70,6 +72,7 @@
     <Content Include="hello-world\README.md" />
     <Content Include="pascals-triangle\README.md" />
     <Content Include="nth-prime\README.md" />
+    <Content Include="bracket-push\README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
